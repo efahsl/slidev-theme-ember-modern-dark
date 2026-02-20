@@ -1,0 +1,39 @@
+{
+  "name": "slidev-theme-ember-modern-dark",
+  "version": "1.0.0",
+  "description": "Ember Modern Dark theme for Slidev — a dark theme using Ember Modern Display Standard fonts",
+  "author": "Eric Fahsl <efahsl@github>",
+  "license": "MIT",
+  "homepage": "https://github.com/efahsl/slidev-theme-ember-modern-dark",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/efahsl/slidev-theme-ember-modern-dark"
+  },
+  "bugs": "https://github.com/efahsl/slidev-theme-ember-modern-dark/issues",
+  "keywords": [
+    "slidev-theme",
+    "slidev"
+  ],
+  "engines": {
+    "node": ">=14.0.0",
+    "slidev": ">=v0.47.0"
+  },
+  "slidev": {
+    "defaults": {
+      "fonts": {
+        "mono": "PT Mono",
+        "sans": "Ember Modern Display Standard",
+        "serif": "Ember Modern Display Standard",
+        "local": "Ember Modern Display Standard",
+        "italic": true,
+        "weights": "400, 700"
+      },
+      "colorSchema": "dark"
+    }
+  },
+  "dependencies": {
+    "@slidev/types": "^0.47.0",
+    "codemirror-theme-vars": "^0.1.2",
+    "prism-theme-vars": "^0.2.4"
+  }
+}
